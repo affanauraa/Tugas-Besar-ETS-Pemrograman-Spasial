@@ -1,0 +1,64 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.44.2-Solothurn">
+  <identifier>BATAS_KABKOTA_AR</identifier>
+  <parentidentifier></parentidentifier>
+  <language>IND</language>
+  <type>dataset</type>
+  <title>BATAS_KABKOTA_AR</title>
+  <abstract>Geodatabase data batas wilayah administrasi kabupaten/kota edisi Juni 2026 (merupakan pemutakhiran dari geodatabase batas wilayah administrasi kabupaten/kota bulan Desember tahun 2026). Proses pemutakhiran yang dilakukan antara lain pemutakhiran segmen batas negara antara Republik Indonesia-Malaysia dan pemutakhiran garis pantai.
+Sumber data yang digunakan untuk fitur area batas wilayah administrasi antara lain: (1) Unsur batas wilayah administrasi kabupaten/kota (ADMINISTRASI_LN); (2) Garis pantai berdasarkan Keputusan Kepala Badan Informasi Geospasial Nomor 235 tahun 2025 tentang penetapan Unsur Garis Pantai untuk Wilayah Negara Kesatuan Republik Indonesia Edisi Tahun 2025 (3) Data batas negara edisi Agustus 2018 (4) Batas negara RI - Malaysia pada MoU between The Government of The Republic of Indonesia and The Government of Malaysia on the Demarcation and Survey of The international Boundary between Indonesia (Kalimantan Utara &amp; Kalimantan Barat) and Malaysia (Sabah &amp; Sarawak) No. 33 dan 34 9 (5) Batas Negara RI-Papua New Guinea pada MoU between The Government of The Republic of Indonesia and The Government of The Independent State of Papua New Guinea on The Densification of Boundary Pillars - JTSC-SDM 34 Desember 2019. 
+Sumber data untuk alokasi wilayah administrasi pulau antara lain: (1) Keputusan Menteri Dalam Negeri Nomor 300.2.2-2138 Tahun 2025 Pemberian dan Pemutakhiran Kode, Data Wilayah Administrasi Pemerintahan, dan Pulau; (2) Keputusan Menteri Dalam Negeri Nomor 300.2.2-2430 Tahun 2025 tentang Perubahan atas Kepmendagri Nomor 300.2.2-2138 mengenai Pemberian dan Pemutakhiran Kode, Data Wilayah Administrasi Pemerintahan, dan Pulau; (3) Berita Acara Kesepakatan Nomor 002/TOPONIMI/VI/2025.
+
+</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>Wilayah Administrasi Kabupaten/Kota Indonesia</keyword>
+  </keywords>
+  <contact>
+    <name>Khafid</name>
+    <organization>Direktorat Pemetaan Batas Wilayah dan Nama Rupabumi</organization>
+    <position>Direktur Pemetaan Batas Wilayah dan Nama Rupabumi</position>
+    <voice></voice>
+    <fax></fax>
+    <email></email>
+    <role></role>
+  </contact>
+  <links/>
+  <history>Data ini merupakan kompilasi batas wilayah administrasi kabupaten/kota dari berbagai sumber data.</history>
+  <history>Data source: Sumber data yang digunakan untuk fitur area batas wilayah administrasi antara lain: (1) Unsur batas wilayah administrasi kabupaten/kota (ADMINISTRASI_LN); (2) Garis pantai berdasarkan Keputusan Kepala Badan Informasi Geospasial Nomor 235 tahun 2025 tentang penetapan Unsur Garis Pantai untuk Wilayah Negara Kesatuan Republik Indonesia Edisi Tahun 2025 (3) Data batas negara edisi Agustus 2018 (4) Batas negara RI - Malaysia pada MoU between The Government of The Republic of Indonesia and The Government of Malaysia on the Demarcation and Survey of The international Boundary between Indonesia (Kalimantan Utara &amp; Kalimantan Barat) and Malaysia (Sabah &amp; Sarawak) No. 33 dan 34 9 (5) Batas Negara RI-Papua New Guinea pada MoU between The Government of The Republic of Indonesia and The Government of The Independent State of Papua New Guinea on The Densification of Boundary Pillars - JTSC-SDM 34 Desember 2019. Sumber data untuk alokasi wilayah administrasi pulau antara lain: (1) Keputusan Menteri Dalam Negeri Nomor 300.2.2-2138 Tahun 2025 Pemberian dan Pemutakhiran Kode, Data Wilayah Administrasi Pemerintahan, dan Pulau; (2) Keputusan Menteri Dalam Negeri Nomor 300.2.2-2430 Tahun 2025 tentang Perubahan atas Kepmendagri Nomor 300.2.2-2138 mengenai Pemberian dan Pemutakhiran Kode, Data Wilayah Administrasi Pemerintahan, dan Pulau; (3) Berita Acara Kesepakatan Nomor 002/TOPONIMI/VI/2025.</history>
+  <dates>
+    <date value="2026-06-10T00:00:00" type="Created"/>
+    <date value="2026-06-10T00:00:00" type="Published"/>
+    <date value="2026-06-12T00:00:00" type="Revised"/>
+  </dates>
+  <fees></fees>
+  <constraints type="Limitations of use">Data batas yang berstatus indikatif tidak dapat dijadikan referensi hukum.</constraints>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["WGS 84 / UTM zone 49S",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 49S",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",111,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Navigation and medium accuracy spatial referencing."],AREA["Between 108°E and 114°E, southern hemisphere between 80°S and equator, onshore and offshore. Australia. Indonesia."],BBOX[-80,108,0,114]],ID["EPSG",32749]]</wkt>
+      <proj4>+proj=utm +zone=49 +south +datum=WGS84 +units=m +no_defs</proj4>
+      <srsid>3199</srsid>
+      <srid>32749</srid>
+      <authid>EPSG:32749</authid>
+      <description>WGS 84 / UTM zone 49S</description>
+      <projectionacronym>utm</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial dimensions="2" miny="-11.00755200000000045" maxy="6.07674100000000017" maxx="141.02004900000000021" minx="94.97195000000000675" maxz="0" crs="EPSG:4326" minz="0"/>
+    <temporal>
+      <period>
+        <start>2026-06-09T17:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>

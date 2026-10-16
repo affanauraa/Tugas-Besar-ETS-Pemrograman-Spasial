@@ -1,0 +1,26 @@
+# File sementara RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Citra Sentinel-2 yang besar
+data/FILE CITRA/
+
+# Raster besar
+*.tif
+*.tiff
+*.jp2
+
+# Folder sementara
+output/temp/
+output/temp_raster/
+output/leaflet_fixed/
+
+# File percobaan
+output/uji_*
+output/tes_*
+
+# File sementara Windows
+Thumbs.db
+desktop.ini
