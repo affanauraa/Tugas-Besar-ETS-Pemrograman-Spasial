@@ -27,9 +27,9 @@ list.files("data")
 # BAGIAN 3 - IMPORT BATAS ADMINISTRASI
 # =====================================================
 
-file_kab <- "data/FILE BATAS ADM/Batas Adm Kabupaten_Purworejo.shp"
+file_kab <- "DATA/FILE BATAS ADM/Batas Adm Kabupaten_Purworejo.shp"
 
-file_kec <- "data/FILE BATAS ADM/Batas Adm Kecamatan_Purworejo.shp"
+file_kec <- "DATA/FILE BATAS ADM/Batas Adm Kecamatan_Purworejo.shp"
 
 # Memastikan file tersedia
 stopifnot(file.exists(file_kab))
@@ -349,7 +349,7 @@ lines(
 
 writeRaster(
   citra_crop,
-  "output/citra_crop_purworejo.tif",
+  "OUTPUT/citra_crop_purworejo.tif",
   overwrite = TRUE
 )
 
@@ -467,28 +467,28 @@ plot(
 # a. Simpan NDVI
 writeRaster(
   NDVI,
-  "output/NDVI_Purworejo.tif",
+  "OUTPUT/NDVI_Purworejo.tif",
   overwrite = TRUE
 )
 
 # b. Simpan NDBI
 writeRaster(
   NDBI,
-  "output/NDBI_Purworejo.tif",
+  "OUTPUT/NDBI_Purworejo.tif",
   overwrite = TRUE
 )
 
 # c. Simpan NDWI
 writeRaster(
   NDWI,
-  "output/NDWI_Purworejo.tif",
+  "OUTPUT/NDWI_Purworejo.tif",
   overwrite = TRUE
 )
 
 # d. Simpan NDCI
 writeRaster(
   NDCI,
-  "output/NDCI_Purworejo.tif",
+  "OUTPUT/NDCI_Purworejo.tif",
   overwrite = TRUE
 )
 
@@ -524,7 +524,7 @@ plot(indeks)
 # Menyimpan indeks gabungan
 writeRaster(
   indeks,
-  "output/indeks_spektral_purworejo.tif",
+  "OUTPUT/indeks_spektral_purworejo.tif",
   overwrite = TRUE
 )
 
@@ -560,7 +560,7 @@ names(klasifikasi) <- "kelas"
 # Menyimpan hasil
 writeRaster(
   klasifikasi,
-  "output/klasifikasi_purworejo.tif",
+  "OUTPUT/klasifikasi_purworejo.tif",
   overwrite = TRUE
 )
 
@@ -671,7 +671,7 @@ peta_final <- ggplot() +
 print(peta_final)
 
 ggsave(
-  filename = "output/Peta_Klasifikasi_Purworejo.pdf",
+  filename = "OUTPUT/Peta_Klasifikasi_Purworejo.pdf",
   plot = peta_final,
   width = 11.7,
   height = 8.3,
@@ -688,7 +688,7 @@ indeks_bersih <- ifel(
   awan == 1,
   NA,
   indeks,
-  filename = "output/indeks_bersih_purworejo.tif",
+  filename = "OUTPUT/indeks_bersih_purworejo.tif",
   overwrite = TRUE
 )
 
@@ -795,6 +795,6 @@ View(tabel_zonal)
 # Simpan hasil tabel statistik
 write.csv(
   tabel_zonal,
-  "output/Zonal_Statistics_Purworejo.csv",
+  "OUTPUT/Zonal_Statistics_Purworejo.csv",
   row.names = FALSE
 )
